@@ -36,7 +36,7 @@ const Proyect = ()=>{
                                         <img src={node.img.file.url} alt={node.img.title} className='img'/>
                                         <div>
                                                 <a href={node.repositorio} className='boton' target='_blank' rel="noreferrer" >Repositories</a>
-                                                {node.website ? <a href={node.website} className='boton' target='_blank' rel="noreferrer" >Website</a>: <p>No existe</p> }
+                                                <a href={node.website} className='boton' target='_blank' rel="noreferrer" >Website</a>
                                         </div>
                                 </div>
                                 ))}
